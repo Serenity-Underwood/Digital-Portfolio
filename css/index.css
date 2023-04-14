@@ -42,14 +42,4 @@ body {
     display: flex;                                                           
     justify-content: center;                                                 
     }                                                                            
-                                                                              
-#blinker {                                                                   
-    margin: 20px;                                                            
-    padding: 10px;                                                           
-    color: var(--color-text-main);                                           
-}                                                                            
-                                                                                 
-.blinker:hover {                                                             
-    color: #ef767a;                                                          
-}                                                    
-    
+                                                                            
