@@ -1,0 +1,33 @@
+/* Import fonts */                                                           
+@font-face {                                                                 
+    font-family: Cutive Mono;                                                
+    src: url("https://fonts.google.com/specimen/Cutive+Mono?category=Monospace")                                                                           
+    format("opentype");                                                   
+}
+
+@font-face {                                                                 
+    font-family: Cutive Mono;                                                
+    font-weight: bold;                                                       
+    src: url("https://fonts.google.com/specimen/Cutive+Mono?category=Monospace")                                                                           
+    format("opentype");                                                   
+}                                                                            
+                                                                             
+:root {                                                                      
+    --color-bg: #6457a6;                                                     
+    --color-text-main: #ffe347;                                              
+    --color-primary: #ffff00;                                                
+    --wrapper-height: 87vh;                                                  
+    --image-max-width: 300px;                                                
+    --image-margin: 3rem;                                                    
+    --font-family: @font-face;                                               
+    --font-family-header: @font-face;                                        
+}                                                                            
+                                                                                 
+/* CODE */                                                                   
+
+body {                                                                       
+    background: var(--color-bg);                                             
+    color: var(--color-text-main);                                           
+    font-family: var(--font-family);                                         
+}
+    
